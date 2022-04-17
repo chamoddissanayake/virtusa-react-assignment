@@ -1,0 +1,41 @@
+.footer-full-container{
+    color: white;
+    background-color: green;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -12px;
+}
+
+.outer-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-menu-item-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: normal;
+}
+
+.menu-item{
+    padding: 10px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+}
+
+.footerHr{
+    width: 110%;
+    margin-left: -5%;
+    color: white;
+}

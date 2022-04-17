@@ -1,0 +1,20 @@
+.fullNavContainer{
+    width: 90%;
+    margin-left: 5%;
+}
+
+.itemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navItem{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navTxt{
+    font-weight: bold;
+    textDecoration: 'none';
+    color: blue;
+}

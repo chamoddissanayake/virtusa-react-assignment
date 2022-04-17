@@ -1,0 +1,31 @@
+.statusBannerStyles {
+    /*background-color: #ffd0d0;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+.imgTxtContainer{
+    display: flex;
+    align-items: center;
+}
+
+.imgTxtItem{
+    padding: 10px;
+}
+
+.titleCls{
+    font-weight: bold;
+}
+
+.subTitleCls{
+
+}
+.contentContainer{
+    margin-left: 5%;
+}

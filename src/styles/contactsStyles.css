@@ -1,0 +1,87 @@
+.addContactBtn{
+    background-color: green; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    /*font-size: 16px;*/
+}
+
+.addContactBtn:hover{
+    background-color: rgba(0, 128, 0, 0.71); /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    /*font-size: 16px;*/
+}
+
+
+.divTitleAndAddContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: center;
+}
+
+.titleAndAddItem{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.editDeleteContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.editDeleteItem{
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+@media only screen and (max-width: 850px) {
+    .lg-screen {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .sm-screen {
+        display: none;
+    }
+}
+
+.add-new-contact-mobile{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*.statusBannerStyles{*/
+/*    background-color: #ffd0d0;*/
+/*    position:fixed;*/
+/*    top:0;*/
+/*    width:100%;*/
+/*    z-index:100;*/
+/*}*/

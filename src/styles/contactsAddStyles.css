@@ -1,0 +1,94 @@
+.section-container{
+    background-color: #ececec;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contacts-add-container{
+    padding: 10px;
+}
+
+.form-container{
+    background-color: white;
+    border: 1px solid white;
+    padding: 40px;
+    box-shadow: 10px 10px 5px rgba(170, 170, 170, 0.31);
+}
+
+
+.form-item{
+    width: 59%;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    outline:none;
+    padding: 6px;
+}
+.form-item:focus{
+    border:1px solid #56b4ef;
+    box-shadow: 0px 0px 3px 1px #c8def0;
+}
+
+.form-item-drop{
+    width: 60%;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    outline:none;
+    padding: 6px;
+}
+.form-item-drop:focus{
+    border:1px solid #56b4ef;
+    box-shadow: 0px 0px 3px 1px #c8def0;
+}
+
+.hr60{
+    width: 60%;
+    margin-left: 0px;
+}
+
+.hori-container{
+    display: flex;
+}
+
+.hori-item{
+    width: 90px;
+}
+
+.pri-color{
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    height: 35px;
+    width: 80px;
+}
+
+.pri-color-outline{
+    border-color: green;
+    color: green;
+    background-color: white;
+    border-radius: 6px;
+    height: 35px;
+    width: 80px;
+}
+
+.bold-lbl{
+    font-weight: 500;
+}
+
+.sm-lbl{
+    font-size: 10px;
+}
+
+.q-item-container{
+    margin-bottom: 15px;
+}
+
+
+.txt-container{
+    width: 60%;
+}
+
+.smTopGap{
+    margin-top: 5px;
+}

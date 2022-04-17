@@ -1,0 +1,58 @@
+.loginPopup {
+    position: relative;
+    /*text-align: center;*/
+    width: 100%;
+}
+.formPopup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+    overflow-y: scroll;
+    height: 80%;
+    width: 80%;
+}
+
+.fullFormContainer {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #fff;
+    padding-bottom: 35px;
+}
+.fullFormContainer input[type=text],
+.fullFormContainer input[type=password] {
+    width: 57%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+}
+.fullFormContainer input[type=text]:focus,
+.fullFormContainer input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.fullFormContainer .btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+.fullFormContainer .cancel {
+    background-color: #cc0000;
+}
+.fullFormContainer .btn:hover,
+.openButton:hover {
+    opacity: 1;
+}
+.closeContainer{
+    padding-top: 40px;
+    text-align: right;
+}
